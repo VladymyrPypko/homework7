@@ -1,0 +1,36 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.section {
+  padding-top: 112px;
+  padding-bottom: 92px;
+  background-color: $color-light;
+
+  &__title {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__description {
+    color: $color-secondary;
+    text-align: center;
+    line-height: $line-height-large;
+  }
+}
+
+.about {
+  .container-sm {
+    max-width: $container-sm;
+  }
+}
+
+.process {
+  background-color: $color-gray-light;
+
+  .container-sm {
+    max-width: $container-sm;
+  }
+}
+
